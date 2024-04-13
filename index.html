@@ -26,25 +26,26 @@
 
   <main>
    <h1 class="align-center">Welcome to My New Website</h1>
-   <img src="./assets/image-1.png" alt="Image with Coming Soon text">
-   <p class="align-center">More information coming soon!</p>
-
-  <section id="contact" class="align-center">
-    <h2>Contact Me</h2>
+   <figure>
+     <img src="./assets/image-1.png" alt="Image with Coming Soon text">
+     <figcaption class="align-center">More information coming soon!</figcaption>
+    </figure>
+  <section id="contact">
+    <h2 class="align-center">Contact Me</h2>
     <form>
         <ul>
           <li>
-            <label for="name">Name:</label> 
+            <label class="align-right" for="name">Name:</label> 
             <input type="text" id="name" name="name">
           </li>
           <li>
-            <label for="email">Email:</label>
+            <label class="align-right" for="email">Email:</label>
             <input type="text" id="email" name="email">
           </li>
-          <li>
-            <button type="submit">Send</button>
-          </li>
        </ul>
+      <div class="align-center">
+        <button type="submit">Send</button> 
+      </div>
     </form>
   </section>
  </main>
