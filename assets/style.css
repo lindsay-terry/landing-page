@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: relative;
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+
+header {
+    position: fixed;
+    display: block;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(131, 155, 206);
+    text-align: right;
+}
+
+li {
+    display: inline;
+    padding: 20px;
+}
+
+h1 {
+    margin: 20px;
+}
+
+main {
+    padding: 50px;
+}
