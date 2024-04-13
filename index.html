@@ -9,30 +9,46 @@
 
 <body>
   <header>
-    <ul>
-        <li>Github</li>
-        <li>Portfolio</li>
-        <li>Contact</li>
-    </ul>
+    <nav class="align-right">
+      <ul>
+        <li>
+            <a href="https://github.com/lindsay-terry">Github</a>
+        </li>
+        <li>
+            <a href="https://github.com/lindsay-terry?tab=repositories">Portfolio</a>
+        </li>
+        <li>
+            <a href="#contact">Contact</a>
+        </li>
+      </ul>
+    </nav>
   </header>
 
   <main>
-   <h1>Welcome to My New Website</h1>
+   <h1 class="align-center">Welcome to My New Website</h1>
    <img src="./assets/image-1.png" alt="Image with Coming Soon text">
-   <p>More information coming soon!</p>
+   <p class="align-center">More information coming soon!</p>
 
-  <section>
+  <section id="contact" class="align-center">
     <h2>Contact Me</h2>
     <form>
-       <label for="name">Name:</label> 
-       <input type="text" id="name" name="name">
-       <label for="email">Email:</label>
-       <input type="text" id="email" name="email">
-       <button type="submit">Send</button>
+        <ul>
+          <li>
+            <label for="name">Name:</label> 
+            <input type="text" id="name" name="name">
+          </li>
+          <li>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email">
+          </li>
+          <li>
+            <button type="submit">Send</button>
+          </li>
+       </ul>
     </form>
   </section>
  </main>
- <footer>
+ <footer class="align-center">
     <p> &copy 2024 My New Website Productions</p>
  </footer>
 </body>

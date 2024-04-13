@@ -6,16 +6,25 @@
 body {
     position: relative;
     font-family: Helvetica, Arial, sans-serif;
-    text-align: center;
+    background-color: rgb(213, 224, 245);
+}
+
+header,
+footer {
+    background-color: rgb(131, 155, 206);
+    height: 50px;
+    width: 100%;
+    line-height: 50px;
 }
 
 header {
     position: fixed;
-    display: block;
-    height: 50px;
-    width: 100%;
-    background-color: rgb(131, 155, 206);
-    text-align: right;
+    border-bottom: 7px solid rgb(179, 195, 226);
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }
 
 li {
@@ -30,3 +39,31 @@ h1 {
 main {
     padding: 50px;
 }
+
+img {
+    display: block;
+    margin: auto;
+    padding: 10px;
+}
+
+footer {
+    border-top: 7px solid rgb(179, 195, 226);
+}
+
+section {
+    display: block;
+    background-color: rgb(214, 235, 240);
+    width: 100%;
+    margin-bottom: 0;
+    padding: 20px 10px 40px 10px;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.align-center {
+    text-align: center;
+}
+
+
